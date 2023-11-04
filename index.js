@@ -10,7 +10,7 @@ const MONGO_URL = process.env.MONGO_URL;
 // Middleware
 app.use(express.json());
 const corsOptions = {
-    origin: [`${CLIENT_URL}`,"https://654501ef9258274639ef8754--tubular-toffee-1f0157.netlify.app"], 
+    origin: [`${CLIENT_URL}`,"https://6545bddc3959ee38808de378--fancy-otter-5144aa.netlify.app"], 
     methods: 'GET, POST, PUT, DELETE',
     allowedHeaders: 'Content-Type, Authorization',
   };
